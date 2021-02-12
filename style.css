@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat';
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.logo {
+  font-size: 40px;
+}
+.logo-container {
+  flex: 1;
+}
+nav {
+  flex: 1;
+}
+.navlink {
+  justify-content: flex-end;
+  display: flex;
+}
+.social {
+  margin: 0px 10px;
+}
+.intro-header,
+.intro-sub {
+  text-align: center;
+  margin-top: 90px;
+}
+.intro-header {
+  font-size: 50px;
+  font-weight: 600;
+}
+.intro-sub {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+.avatar-pic {
+  margin-top: 0px;
+  height: 40vh;
+  width: auto;
+}
+.description-head {
+  font-size: 30px;
+}
+.description,
+.startup-projects {
+  background-color: #ff6569;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: -85px;
+}
+.description-body {
+  width: 50%;
+  margin-top: 20px;
+  font-weight: 800;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 500;
+}
+.skill-sets {
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  border: 1px solid lightgray;
+  box-shadow: 0px 1px 0px lightgray;
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.designer-designer,
+.designer-front,
+.designer-mentor {
+  text-align: center;
+  line-height: 1.8;
+  padding: 80px;
+}
+.designer-designer,
+.designer-front {
+  border-right: 1px solid lightgray;
+}
+.head-enjoy {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ff6569;
+}
+.title,
+.titleinfo,
+.enjoy {
+  margin-bottom: 20px;
+}
+.recent-work {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 2;
+}
+.recent-work-desc {
+  font-size: 18px;
+}
+.recent-heading {
+  font-size: 28px;
+}
+.email {
+  color: #ff6569;
+}
+.email:hover {
+  color: black;
+  border-bottom: 1px solid #ff6569;
+}
+.recent-work-pics,
+.see-more {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.pictures {
+  border-radius: 20px;
+  width: 30%;
+  margin: 10px 20px;
+}
+.pictures:hover {
+  opacity: 0.8;
+}
+.startup-projects {
+  line-height: 2;
+}
+.see-more {
+  align-items: center;
+  margin-top: 2%;
+}
+/* BUTTONS */
+.see,
+.start,
+.lets {
+  border: 2px solid #ff6569;
+  color: #ff6569;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+.see:hover,
+.start:hover {
+  color: white;
+  background-color: #ff6569;
+}
+.companies {
+  margin-top: 10%;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  padding-top: 5%;
+}
+.compname {
+  width: 10%;
+  margin: 40px 50px;
+}
+
+.project-filler {
+  width: 80%;
+  margin: auto;
+}
+.filler {
+  display: flex;
+  justify-content: center;
+}
+.fill {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 0px 1px 0px lightgray;
+}
+.interests {
+  margin-top: 5%;
+  text-align: center;
+  line-height: 2;
+  padding-bottom: 6%;
+  border-bottom: 1px solid black;
+  margin-bottom: 5%;
+}
+.button-start {
+  margin-top: 2%;
+}
+.test {
+  width: 20%;
+}
+.testimonials {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  line-height: 1.6;
+  margin-bottom: 5%;
+}
+.fake-name,
+.fake-desc {
+  margin-top: 3%;
+}
+.test {
+  margin: 8% 0%;
+}
+.start-a-project {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  height: 150px;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #141c3a;
+  color: white;
+  margin-top: -470px;
+}
+.projectdesc {
+  width: 30%;
+}
+.lets {
+  font-weight: 600;
+  color: white;
+}
+.lets:hover {
+  background-color: #ff6569;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-color: #ff6569;
+}
+.footerdesc {
+  margin-top: 2%;
+}
+.bottom-social {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  display: flex;
+}
+.links {
+  color: black;
+  margin: 0px 10px;
+}
+.links:hover {
+  border-bottom: 1px solid black;
+}
+.footerdesc {
+  font-size: 25px;
+  font-weight: 500;
+}
+.made {
+  opacity: 0.7;
+  font-weight: 500;
+}
